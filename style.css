@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    width: 1170;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+#test{
+    background-color: hwb(243 7% 84% / 0.51);
+    height: 100vh;
+    position: relative;
+}
+#test .container{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+#test .container button{
+    padding: 10px;
+    margin: 0 10px;
+    cursor:pointer ;
+}
+#test .container .box{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(8, 8, 70);
+    display: inline-block;
+    transform: translate(10%, 10%);
+
+}
